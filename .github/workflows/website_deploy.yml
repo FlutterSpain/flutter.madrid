@@ -29,7 +29,7 @@ jobs:
           git config --global user.name jamesblasco
           git status
           # change this remote url:
-          git remote add origin "https://${{secrets.commit_secret}}@github.com/Flutter-Madrid/flutter.madrid.git"
+          git remote add origin "https://jamesblasco:${{secrets.commit_secret}}@github.com/Flutter-Madrid/flutter.madrid.git"
           git checkout -b gh-pages
           git add --all
           git commit -m ":rocket: Roll master - Deploy website"

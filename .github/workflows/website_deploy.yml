@@ -31,6 +31,7 @@ jobs:
           # change this remote url:
           git remote add origin "https://jamesblasco:${{secrets.commit_secret}}@github.com/Flutter-Madrid/flutter.madrid.git"
           git checkout -b gh-pages
+          echo "flutter.madrid" > CNAME
           git add --all
           git commit -m ":rocket: Roll master - Deploy website"
           git push origin gh-pages -f

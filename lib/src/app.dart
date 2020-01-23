@@ -15,6 +15,9 @@ class MyApp extends StatelessWidget {
             display3: GoogleFonts.balooBhai(
                 textStyle: textTheme.display3
                     .copyWith(color: Color(0xff03569B), wordSpacing: 20)),
+            subtitle: TextStyle(
+                color: Colors.black.withOpacity(0.7)
+            ),
             body1: GoogleFonts.montserrat(
                 textStyle: textTheme.body1
                     .copyWith(color: Colors.black.withOpacity(0.7)))),

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_madrid/src/modules/meetups/meetup_model.dart';
+import 'package:flutter_madrid/src/modules/meetups/meetup_widget.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:fluid_layout/fluid_layout.dart';
@@ -33,11 +35,20 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
             Spacer(),
-            Text('Hola! ', style: Theme.of(context).textTheme.display3),
+            Text('Proximo meetup:  ', style: Theme.of(context).textTheme.title),
             SizedBox(height: 12),
-            Text(
+            MeetupCard(
+              data: MeetupData(
+
+                  title: 'Flutter 💙 Firebase',
+                  description: '10 Febrero - Auditorio, Google Campus',
+                  meetUrl:
+                      'https://www.meetup.com/es-ES/Flutter-Madrid/events/268141382/'),
+            ),
+            SizedBox(height: 12),
+            /*          Text(
                 'Estamos preparando algo increíble\npara la comunidad de flutter en Madrid. \n\nNos vemos pronto!',
-                style: Theme.of(context).textTheme.body1),
+                style: Theme.of(context).textTheme.body1),*/
             SizedBox(height: 60),
             Text('Únete y mantente informado:',
                 style: Theme.of(context)

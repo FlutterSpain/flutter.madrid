@@ -63,10 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
       )),
       Expanded(child: LayoutBuilder(
         builder: (context, constraints) {
-          if (constraints.maxWidth > 50.0)
-            return _backgroundImage(context);
-          else
-            return Container();
+          return constraints.maxWidth > 50.0 ? _backgroundImage(context) : Container();
         },
       ))
     ])));

@@ -21,11 +21,9 @@ class MeetupCard extends StatelessWidget {
           children: <Widget>[
             InkWell(
               borderRadius: BorderRadius.circular(12),
-              onTap: data.meetUrl != null
-                  ? () {
-                launch(data.meetUrl);
-              }
-                  : null,
+              onTap: () {
+                if (data.meetUrl != null) launch(data.meetUrl);
+              },
               child:
               ClipRRect(
                 borderRadius: BorderRadius.circular(6),

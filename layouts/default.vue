@@ -1,6 +1,10 @@
 <template>
-  <div>
-    <Nuxt />
+  <div class="h-screen">
+    <BaseHeader />
+    <main>
+      <Nuxt />
+    </main>
+    <BottomNavBar />
   </div>
 </template>
 

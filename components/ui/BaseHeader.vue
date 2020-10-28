@@ -1,5 +1,7 @@
 <template>
   <header class="header">
+    <Logo />
+    <ColorSwitch />
   </header>
 </template>
 

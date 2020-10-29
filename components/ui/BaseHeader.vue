@@ -1,5 +1,5 @@
 <template>
-  <header class="header bg-white dark:bg-black">
+  <header class="header bg-light dark:bg-dark">
     <Logo />
     <ColorSwitch />
   </header>

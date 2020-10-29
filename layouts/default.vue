@@ -1,7 +1,7 @@
 <template>
   <div class="h-screen">
     <BaseHeader />
-    <main class="bg-gray-500">
+    <main class="bg-light dark:bg-dark">
       <Nuxt />
     </main>
     <BottomNavBar class="md:hidden" />

@@ -1,4 +1,5 @@
 :root {
-  --header: 56px;
-  --footer: 83px;
+  --header-mobile: 56px;
+  --header: 64px;
+  --navbar: 83px;
 }

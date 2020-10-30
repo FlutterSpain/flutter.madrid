@@ -3,14 +3,14 @@
     <img
       v-if="$colorMode.preference === 'light'"
       src="@/assets/images/logo_flutter_madrid.png"
-      width="100"
       alt="Logo Flutter Madrid"
+      class="transition w-24 p-2 md:p-0"
     />
     <img
       v-else
       src="@/assets/images/logo_flutter_madrid_blanco.png"
-      width="100"
       alt="Logo Flutter Madrid blanco"
+      class="transition w-24 p-2 md:p-0"
     />
   </div>
 </template>

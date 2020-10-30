@@ -2,12 +2,12 @@
   <div>
     <IconDark
       v-if="$colorMode.preference !== 'dark'"
-      class="cursor-pointer"
+      class="cursor-pointer text-gray-main-500"
       @click="changeTheme('dark')"
     />
     <IconLight
       v-else
-      class="cursor-pointer fill-white text-white"
+      class="cursor-pointer fill-white text-gray-main-400"
       @click="changeTheme('light')"
     />
   </div>

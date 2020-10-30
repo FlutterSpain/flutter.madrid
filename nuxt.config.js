@@ -40,8 +40,9 @@ export default {
   ],
 
   fontawesome: {
+    component: 'fa',
     icons: {
-      solid: ['faHome'],
+      solid: true,
     },
   },
 

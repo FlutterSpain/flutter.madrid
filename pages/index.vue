@@ -1,11 +1,5 @@
 <template>
-  <div class="container">
-    <div>
-      <h1>Bienvenidos a Flutter Madrid</h1>
-    </div>
+  <div class="w-full md:h-full">
+    <HomeWelcome />
   </div>
 </template>
-
-<script>
-export default {}
-</script>

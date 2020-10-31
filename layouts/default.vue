@@ -1,7 +1,7 @@
 <template>
   <div class="h-screen">
     <BaseHeader />
-    <main class="main bg-light dark:bg-dark">
+    <main class="main overflow-y-auto bg-light dark:bg-dark">
       <Nuxt />
     </main>
     <BottomNavBar />
@@ -32,31 +32,44 @@ html {
   height: calc(100% - var(--header-mobile) - var(--navbar));
 }
 
-@media (min-width: 768px) {
-  .main {
-    height: calc(100% - var(--header));
-  }
-}
-
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
-  font-weight: 300;
-  font-size: 100px;
+  font-weight: 500;
+  font-size: 1.75rem;
   color: #35495e;
   letter-spacing: 1px;
 }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
 .links {
   padding-top: 15px;
+}
+
+.paragraph {
+  font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.75rem;
+}
+
+.button {
+  @apply py-3 px-6 bg-blue-main-500 text-white rounded-lg font-bold text-xs;
+  min-width: 200px;
+}
+
+@media (min-width: 768px) {
+  .main {
+    height: calc(100% - var(--header));
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .paragraph {
+    font-size: 1rem;
+  }
+
+  .button {
+    font-size: 1rem;
+    min-width: 300px;
+  }
 }
 </style>

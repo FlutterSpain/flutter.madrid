@@ -1,5 +1,5 @@
 <template>
-  <header class="header p-4 bg-light dark:bg-dark md:pt-8">
+  <header class="header p-4 bg-light dark:bg-dark md:pt-8 md:px-8">
     <Logo />
     <div class="md:w-3/4 lg:w-1/2 flex justify-end">
       <NavBar />

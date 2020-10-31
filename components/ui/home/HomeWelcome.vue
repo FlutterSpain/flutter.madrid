@@ -1,12 +1,12 @@
 <template>
   <article
-    class="welcome p-6 flex flex-col md:flex-row-reverse md:items-center"
+    class="welcome p-6 flex flex-col md:flex-row-reverse md:items-center lg:mt-8"
   >
-    <DeveloperLight
+    <WorkingLight
       v-if="$colorMode.preference !== 'dark'"
-      class="developer-image"
+      class="developer-image mb-3"
     />
-    <DeveloperDark v-else class="developer-image" />
+    <WorkingDark v-else class="developer-image mb-3" />
 
     <div class="welcome-text">
       <h1 class="title dark:text-gray-main-200">
@@ -23,7 +23,7 @@
         desarrollo de aplicaciones con Flutter y Dart.
       </p>
 
-      <Button text="Únete" class="mt-5" />
+      <Button text="Únete" class="mt-5" @click="goToMeetup" />
     </div>
   </article>
 </template>
@@ -32,8 +32,15 @@
 export default {
   name: 'HomeWelcome',
   components: {
-    DeveloperLight: () => import('@/assets/images/developer_light.svg?inline'),
-    DeveloperDark: () => import('@/assets/images/developer_dark.svg?inline'),
+    WorkingLight: () =>
+      import('@/assets/images/working_together_light.svg?inline'),
+    WorkingDark: () =>
+      import('@/assets/images/working_together_dark.svg?inline'),
+  },
+  methods: {
+    goToMeetup() {
+      window.location.href = 'https://www.meetup.com/es-ES/Flutter-Madrid/'
+    },
   },
 }
 </script>
@@ -56,7 +63,7 @@ export default {
   .developer-image {
     height: 25rem;
     max-height: 100%;
-    min-width: 31.25rem; /* 500px */
+    min-width: 26rem; /* 500px */
     max-width: 60rem;
   }
 }

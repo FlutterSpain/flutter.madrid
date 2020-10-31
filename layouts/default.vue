@@ -35,7 +35,15 @@ html {
 .title {
   display: block;
   font-weight: 500;
-  font-size: 1.75rem;
+  font-size: 2rem;
+  color: #35495e;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  display: block;
+  font-weight: 500;
+  font-size: 1.5rem;
   color: #35495e;
   letter-spacing: 1px;
 }
@@ -60,7 +68,11 @@ html {
   }
 
   .title {
-    font-size: 2.5rem;
+    font-size: 3rem;
+  }
+
+  .subtitle {
+    font-size: 2rem;
   }
 
   .paragraph {

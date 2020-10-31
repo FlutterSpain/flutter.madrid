@@ -9,7 +9,7 @@
     <WorkingDark v-else class="developer-image mb-3" />
 
     <div class="welcome-text">
-      <h1 class="title dark:text-gray-main-200">
+      <h1 class="title text-center md:text-left dark:text-gray-main-200">
         Tu comunidad de #Flutter en Madrid
       </h1>
 
@@ -63,7 +63,7 @@ export default {
   .developer-image {
     height: 25rem;
     max-height: 100%;
-    min-width: 26rem; /* 500px */
+    min-width: 26rem;
     max-width: 60rem;
   }
 }

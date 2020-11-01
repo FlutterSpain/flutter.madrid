@@ -11,7 +11,7 @@ export default {
         content: 'Comunidad de Flutter en Madrid',
       },
       { name: 'msapplication-TileColor', content: '#da532c' },
-      { name: 'theme-color', content: '#ffffff'},
+      { name: 'theme-color', content: '#ffffff' },
     ],
     link: [
       {
@@ -31,8 +31,8 @@ export default {
         sizes: '16x16',
         href: '/favicon-16x16.png',
       },
-      { rel: 'manifest', href: '/site.webmanifest'},
-      { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#5bbad5'},
+      { rel: 'manifest', href: '/site.webmanifest' },
+      { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#5bbad5' },
     ],
   },
 

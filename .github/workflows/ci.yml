@@ -55,5 +55,5 @@ jobs:
           git checkout -b gh-pages
           echo "flutter.madrid" > CNAME
           git add --all
-          git commit -m ":rocket: Roll master - Deploy website"
+          git commit -m "Roll master - Deploy website"
           git push origin gh-pages -f

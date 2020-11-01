@@ -45,6 +45,7 @@ export default {
     component: 'fa',
     icons: {
       solid: true,
+      brands: true,
     },
   },
 

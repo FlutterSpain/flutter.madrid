@@ -3,7 +3,7 @@ title: 'Flutter in the Dark'
 description: |
   🌘 Flutter in the Dark es el evento donde entusiastas y la comunidad Flutter comparten una noche divertida a través de retos a la luz de las pantallas.
 date: 2020-12-03T18:00:00.000Z
-image: https://secure.meetupstatic.com/photos/event/8/2/1/8/highres_493173304.jpeg
+image: https://secure.meetupstatic.com/photos/event/3/1/c/b/highres_493332747.jpeg
 altImage: 'Imagen del evento Flutter in the Dark'
 ---
 

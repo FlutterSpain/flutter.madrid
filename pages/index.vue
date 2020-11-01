@@ -3,5 +3,6 @@
     <HomeWelcome />
     <HomeWeDo />
     <HomeLastEvents />
+    <BaseFooter />
   </div>
 </template>

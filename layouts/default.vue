@@ -52,9 +52,13 @@ html {
   padding-top: 15px;
 }
 
+.links:hover {
+  text-decoration: underline;
+}
+
 .paragraph {
   font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 
 .button {
@@ -73,10 +77,6 @@ html {
 
   .subtitle {
     font-size: 2rem;
-  }
-
-  .paragraph {
-    font-size: 1rem;
   }
 
   .button {

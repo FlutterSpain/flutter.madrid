@@ -5,10 +5,10 @@
     </h2>
 
     <ul
-      class="flex flex-col items-center justify-between md:flex-row md:items-start md:mt-5"
+      class="flex flex-col items-center justify-between lg:flex-row lg:items-start md:mt-5"
     >
       <li v-for="event in lastEvents" :key="event.slug">
-        <EventSmallCard :event="event" class="mt-6 mx-4 w-full" />
+        <EventSmallCard :event="event" class="mt-8 lg:mx-4" />
       </li>
     </ul>
   </article>

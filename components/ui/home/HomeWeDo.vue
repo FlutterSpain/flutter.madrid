@@ -1,5 +1,5 @@
 <template>
-  <article class="bg-gray-main-300 px-6 py-10 dark:bg-gray-main-500">
+  <article class="bg-gray-main-300 px-6 py-10 md:px-10 dark:bg-gray-main-500">
     <h2 class="subtitle text-center md:text-left dark:text-gray-main-200">
       ¿Qué hacemos?
     </h2>

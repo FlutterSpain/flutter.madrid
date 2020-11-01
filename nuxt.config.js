@@ -37,6 +37,8 @@ export default {
     '@nuxtjs/fontawesome',
     // https://color-mode.nuxtjs.org/
     '@nuxtjs/color-mode',
+    // https://www.npmjs.com/package/@nuxtjs/moment
+    '@nuxtjs/moment',
   ],
 
   fontawesome: {
@@ -44,6 +46,10 @@ export default {
     icons: {
       solid: true,
     },
+  },
+
+  moment: {
+    locales: ['es'],
   },
 
   // Modules (https://go.nuxtjs.dev/config-modules)

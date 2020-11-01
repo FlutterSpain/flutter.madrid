@@ -1,6 +1,6 @@
 <template>
   <article
-    class="welcome p-6 flex flex-col md:flex-row-reverse md:items-center lg:mt-8"
+    class="welcome p-6 flex flex-col md:flex-row-reverse md:items-center md:justify-between md:pl-10 lg:my-8"
   >
     <WorkingLight
       v-if="$colorMode.preference !== 'dark'"
@@ -8,17 +8,17 @@
     />
     <WorkingDark v-else class="developer-image mb-3" />
 
-    <div class="welcome-text">
-      <h1 class="title text-center md:text-left dark:text-gray-main-200">
+    <div class="welcome-text text-center md:text-left">
+      <h1 class="title dark:text-gray-main-200">
         Tu comunidad de #Flutter en Madrid
       </h1>
 
-      <p class="paragraph mt-5 dark:text-gray-main-400">
+      <p class="paragraph mt-5 text-left dark:text-gray-main-400">
         Flutter es un SDK open source creado principalmente por Google para
         construir increíbles aplicaciones compiladas nativamente para Android,
         iOS, web y escritorio con el mismo código fuente.
       </p>
-      <p class="paragraph mt-3 dark:text-gray-main-400">
+      <p class="paragraph mt-3 text-left dark:text-gray-main-400">
         Somos una comunidad local creada para desarrolladores interesados en el
         desarrollo de aplicaciones con Flutter y Dart.
       </p>

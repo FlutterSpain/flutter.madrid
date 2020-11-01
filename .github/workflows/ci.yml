@@ -4,24 +4,25 @@ on:
   push:
     branches:
       - main
-      - master
   pull_request:
     branches:
       - main
-      - master
 
 jobs:
   ci:
-    runs-on: ${{ matrix.os }}
-
     strategy:
       matrix:
         os: [ubuntu-latest]
         node: [14]
 
+    env:
+      my_secret: ${{secrets.commit_secret}}
+
+    runs-on: ${{ matrix.os }}
+
     steps:
       - name: Checkout 🛎
-        uses: actions/checkout@master
+        uses: actions/checkout@main
 
       - name: Setup node env 🏗
         uses: actions/setup-node@v2.1.2
@@ -47,3 +48,16 @@ jobs:
       - name: Run linter 👀
         run: yarn lint
 
+      - name: Deploy gh-pages 📡
+        run:
+          cd dist
+          git init
+          git config --global user.email git@jaimeblasco.com
+          git config --global user.name jamesblasco
+          git status
+          git remote add origin "https://jamesblasco:${{secrets.commit_secret}}@github.com/Flutter-Madrid/flutter.madrid.git"
+          git checkout -b gh-pages
+          echo "flutter.madrid" > CNAME
+          git add --all
+          git commit -m ":rocket: Roll master - Deploy website"
+          git push origin gh-pages -f

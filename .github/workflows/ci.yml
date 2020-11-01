@@ -44,6 +44,9 @@ jobs:
       - name: Run linter 👀
         run: yarn lint
 
+      - name: Build dist
+        run: npm run generate
+
       - name: Deploy gh-pages 📡
         run: |
           cd dist

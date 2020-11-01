@@ -45,7 +45,7 @@ jobs:
         run: yarn lint
 
       - name: Deploy gh-pages 📡
-        run:
+        run: |
           cd dist
           git init
           git config --global user.email git@jaimeblasco.com

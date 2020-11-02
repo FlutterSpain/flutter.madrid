@@ -19,8 +19,8 @@
         iOS, web y escritorio con el mismo código fuente.
       </p>
       <p class="paragraph mt-3 text-left dark:text-gray-main-400">
-        Somos una comunidad local creada para desarrolladores interesados en el
-        desarrollo de aplicaciones con Flutter y Dart.
+        Somos una comunidad local creada por y para desarrolladores interesados
+        en el desarrollo de aplicaciones con Flutter y Dart.
       </p>
 
       <Button text="Únete" class="mt-5" @click="goToMeetup" />
@@ -53,7 +53,7 @@ export default {
 
 @media (min-width: 768px) {
   .welcome {
-    height: 75%;
+    height: 90vh;
   }
 
   .welcome-text {

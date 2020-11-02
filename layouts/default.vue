@@ -52,9 +52,11 @@ html {
 .nuxt-content ul {
   list-style: disc;
   padding-left: 2.5rem;
+  font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
-html.dark .nuxt-content h2 {
+html.dark .nuxt-content h2,
+html.dark .nuxt-content ul {
   @apply text-gray-main-200;
 }
 
@@ -89,6 +91,10 @@ html.dark .nuxt-content p {
 .outline-button {
   @apply py-3 px-6 border bg-transparent text-blue-main-500 border-blue-main-500 rounded-lg font-bold text-xs;
   min-width: 200px;
+}
+
+html.dark .outline-button {
+  @apply text-gray-main-400 border-gray-main-400;
 }
 
 @media (min-width: 768px) {

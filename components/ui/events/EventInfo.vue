@@ -15,7 +15,7 @@
       <nuxt-content :document="event" />
 
       <div
-        class="mt-5 flex flex-col items-center lg:flex-row lg:justify-start lg:items-end"
+        class="mt-8 flex flex-col items-center lg:flex-row lg:justify-start lg:items-end"
       >
         <Button :text="eventButtonText" class="block mr-2" @click="goToEvent" />
         <OutlineLink

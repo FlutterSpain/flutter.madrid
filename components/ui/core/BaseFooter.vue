@@ -27,7 +27,7 @@
         </a>
       </li>
       <li>
-        <a href="#" target="_blank">
+        <a href="http://flutter-es.slack.com/" target="_blank">
           <fa class="text-4xl ml-4" :icon="['fab', 'slack']" />
         </a>
       </li>

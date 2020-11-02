@@ -11,6 +11,8 @@ altImage: 'Imagen del evento programación reactiva en Flutter y Dart'
 
 Nuevo capítulo de #FlutterEnEspañol donde Alfredo Bautista nos hablará sobre el uso de Streams en Dart y por supuesto en Flutter para dar reactividad a nuestras aplicaciones.
 
-## Alfredo Bautista (https://twitter.com/alfredobs97)
+## Alfredo Bautista
 
 Alfredo es DevOps Administrator en Linux con el uso de Docker, Ansible y Kubernetes además de web y mobile developer. Corganizador de la primera FlutterConf en Málaga y de GDG Marbella.
+
+https://twitter.com/alfredobs97

@@ -28,10 +28,6 @@ html {
   margin: 0;
 }
 
-.main {
-  height: calc(100% - var(--header-mobile));
-}
-
 .title {
   display: block;
   font-weight: 700;
@@ -96,10 +92,6 @@ html.dark .nuxt-content p {
 }
 
 @media (min-width: 768px) {
-  .main {
-    height: calc(100% - var(--header));
-  }
-
   .title {
     font-size: 3rem;
   }

@@ -1,5 +1,5 @@
 <template>
-  <header class="header dark:bg-dark md:pt-4 md:px-10">
+  <header class="header bg-white dark:bg-dark md:pt-4 md:px-10">
     <Logo />
     <div class="md:w-3/4 lg:w-1/2 flex justify-end items-center">
       <NavBar />
@@ -19,7 +19,7 @@ export default {
 
 <style scoped>
 .header {
-  @apply flex items-center justify-between p-4 bg-white sticky top-0;
+  @apply flex items-center justify-between p-4 sticky top-0;
   height: var(--header-mobile);
   z-index: 10;
 }

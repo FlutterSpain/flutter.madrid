@@ -5,6 +5,7 @@ description: |
 date: 2020-12-03T18:00:00.000Z
 image: https://secure.meetupstatic.com/photos/event/3/1/c/b/highres_493332747.jpeg
 altImage: 'Imagen del evento Flutter in the Dark'
+eventLink: https://www.meetup.com/es-ES/Flutter-Madrid/events/274122657/
 ---
 
 ## 👋 Bienvenido al nuevo evento de la comunidad Flutter 💙

@@ -34,18 +34,23 @@ html {
 
 .title {
   display: block;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 2rem;
   color: #35495e;
   letter-spacing: 1px;
 }
 
-.subtitle {
+.subtitle,
+.nuxt-content > h2 {
   display: block;
   font-weight: 500;
   font-size: 1.5rem;
   color: #35495e;
   letter-spacing: 1px;
+}
+
+.nuxt-content > h2 {
+  margin: 1rem 0;
 }
 
 .links {
@@ -56,13 +61,27 @@ html {
   text-decoration: underline;
 }
 
-.paragraph {
+.paragraph,
+.nuxt-content > p {
   font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 1rem;
 }
 
+.nuxt-content > p {
+  margin-top: 1rem;
+}
+
+.nuxt-content a {
+  text-decoration: underline;
+}
+
 .button {
-  @apply py-3 px-6 bg-blue-main-500 text-white rounded-lg font-bold text-xs;
+  @apply py-3 px-6 border bg-blue-main-500 text-white border-blue-main-500 rounded-lg font-bold text-xs;
+  min-width: 200px;
+}
+
+.outline-button {
+  @apply py-3 px-6 border bg-transparent text-blue-main-500 border-blue-main-500 rounded-lg font-bold text-xs;
   min-width: 200px;
 }
 
@@ -75,11 +94,17 @@ html {
     font-size: 3rem;
   }
 
-  .subtitle {
+  .subtitle,
+  .nuxt-content > h2 {
     font-size: 2rem;
   }
 
-  .button {
+  .nuxt-content p {
+    max-width: 37.5rem;
+  }
+
+  .button,
+  .outline-button {
     font-size: 1rem;
     min-width: 300px;
   }

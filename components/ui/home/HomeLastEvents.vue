@@ -8,7 +8,11 @@
       class="flex flex-col items-center justify-between lg:flex-row lg:items-start md:mt-5"
     >
       <li v-for="event in lastEvents" :key="event.slug">
-        <EventSmallCard :event="event" class="mt-8 lg:mx-4" />
+        <EventSmallCard
+          :event="event"
+          class="mt-8 lg:mx-4"
+          @click="goToEvent(event.slug)"
+        />
       </li>
     </ul>
   </article>
@@ -30,6 +34,11 @@ export default {
   },
   mounted() {
     this.$fetch()
+  },
+  methods: {
+    goToEvent(eventSlug) {
+      window.location.href = `/eventos/${eventSlug}`
+    },
   },
 }
 </script>

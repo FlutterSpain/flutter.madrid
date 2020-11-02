@@ -1,5 +1,5 @@
 <template>
-  <div class="card dark:bg-gray-main-500">
+  <div class="card dark:bg-gray-main-500" @click="$emit('click')">
     <div class="card-header">
       <div>
         <span

@@ -1,5 +1,5 @@
 <template>
-  <div class="hidden md:flex w-1/2 align-middle justify-around">
+  <div class="hidden md:flex w-1/2 items-center justify-around">
     <NavBarItem title="Inicio" icon="home" to="/" :is-only-text="true" />
     <NavBarItem
       title="Eventos"

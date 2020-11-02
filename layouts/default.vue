@@ -29,7 +29,7 @@ html {
 }
 
 .main {
-  height: calc(100% - var(--header-mobile) - var(--navbar));
+  height: calc(100% - var(--header-mobile));
 }
 
 .title {
@@ -53,6 +53,15 @@ html {
   margin: 1rem 0;
 }
 
+.nuxt-content ul {
+  list-style: disc;
+  padding-left: 2.5rem;
+}
+
+html.dark .nuxt-content h2 {
+  @apply text-gray-main-200;
+}
+
 .links {
   padding-top: 15px;
 }
@@ -62,13 +71,14 @@ html {
 }
 
 .paragraph,
-.nuxt-content > p {
+.nuxt-content p {
   font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 1rem;
+  margin-top: 1rem;
 }
 
-.nuxt-content > p {
-  margin-top: 1rem;
+html.dark .nuxt-content p {
+  @apply text-gray-main-400;
 }
 
 .nuxt-content a {

@@ -10,42 +10,40 @@ eventLink: https://www.meetup.com/es-ES/Flutter-Madrid/events/274122657/
 
 ## 👋 Bienvenido al nuevo evento de la comunidad Flutter 💙
 
-🌘 Flutter in the Dark es el evento donde entusiastas y la comunidad Flutter comparten una noche divertida a través de retos a la luz de las pantallas
+🌘 Flutter in the Dark es el evento donde entusiastas y la comunidad Flutter comparten una noche divertida a través de retos a la luz de las pantallas.
 
 Más info --> https://flutter-in-the-dark.web.app
 
-## 🤩 ¿CÓMO SERÁ EL EVENTO?
+## 🤩 ¿Cómo será el evento?
 
-3 RETOS<br/>
-3 NIVELES<br/>
-60 MINUTOS
+3 RETOS - 3 NIVELES - 60 MINUTOS
 
-* Los retos tendrán diferentes niveles:
-Principiante
-Intermedio
-Avanzado
+Los retos tendrán diferentes niveles:
+* Principiante
+* Intermedio
+* Avanzado
 
-* Cada nivel tiene plazas limitadas
+Cada nivel tiene plazas limitadas.
 
-* Los retos se presentarán en directo el jueves 3 de diciembre en directo en el evento
+Los retos se presentarán en directo el jueves 3 de diciembre en el evento.
 
-## 👩‍💻 ¿CÓMO PUEDO PARTICIPAR?
+## 👩‍💻 ¿Cómo puedo participar?
 
-* Puedes unirte como asistente o participar realizando un reto con Flutter y Dart adaptado a tu nivel.
+Puedes unirte como asistente o participar realizando un reto con Flutter y Dart adaptado a tu nivel.
 
-* Cada participante tendrá un tiempo limitado de 60 minutos para realizar su reto
+Cada participante tendrá un tiempo limitado de 60 minutos para realizar su reto.
 
-* El proyecto realizado por cada participante será revisado y puntuado por nuestro jurado que se presentará al comenzar el evento
+El proyecto realizado por cada participante será revisado y puntuado por nuestro jurado que se presentará al comenzar el evento.
 
-* Los ganadores se publicarán en directo durante el evento
+Los ganadores se publicarán en directo durante el evento.
 
-## 🎁 ¿QUÉ PREMIOS HABRÁ?
+## 🎁 ¿Qué premios habrá?
 
-Los participantes de cada categoría tendrán 3 ganadores que conseguirán regalos especiales de nuestras empresas colaboradoras, camisetas y pegatinas de Flutter
+Los participantes de cada categoría tendrán 3 ganadores que conseguirán regalos especiales de nuestras empresas colaboradoras, camisetas y pegatinas de Flutter.
 
-✍️ Las inscripciones a los retos se abrirán el lunes 2 de Noviembre
+✍️ Las inscripciones a los retos se abrirán el lunes 2 de Noviembre.
 
-🍿 Si ver el evento en directo como asistente solo tienes que unirte a este Meetup
+🍿 Si ver el evento en directo como asistente solo tienes que unirte a este Meetup.
 
-💙 Flutter in the Dark es un evento organizado por:
+💙 Flutter in the Dark es un evento organizado por:<br/>
 FlutterConf, Flutter Madrid y GDG Marbella

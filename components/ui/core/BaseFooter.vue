@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="p-8 bg-blue-main-700 text-gray-main-200 flex items-center justify-between flex-col lg:flex-row md:p-16"
+    class="footer p-8 bg-blue-main-700 text-gray-main-200 flex items-center justify-between flex-col lg:flex-row md:p-16"
   >
     <ul>
       <li class="text-white text-2xl font-bold">
@@ -58,3 +58,16 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.footer {
+  margin-bottom: var(--navbar);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+  .footer {
+    @apply mb-0;
+  }
+}
+</style>

@@ -1,7 +1,7 @@
 <template>
   <header class="header p-4 bg-light dark:bg-dark md:pt-4 md:px-10">
     <Logo />
-    <div class="md:w-3/4 lg:w-1/2 flex justify-end">
+    <div class="md:w-3/4 lg:w-1/2 flex justify-end items-center">
       <NavBar />
       <ColorSwitch class="p-2 md:ml-6 xl:ml-0" />
     </div>

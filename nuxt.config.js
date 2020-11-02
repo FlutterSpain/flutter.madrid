@@ -1,3 +1,13 @@
+import path from 'path'
+import fs from 'fs'
+
+function getDynamicPaths(type) {
+  return fs
+    .readdirSync(path.resolve(__dirname, 'content', type))
+    .filter((filename) => path.extname(filename) === '.md')
+    .map((filename) => `/${type}/${path.parse(filename).name}`)
+}
+
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -92,4 +102,8 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
+
+  generate: {
+    routes: [].concat(getDynamicPaths('eventos')),
+  },
 }

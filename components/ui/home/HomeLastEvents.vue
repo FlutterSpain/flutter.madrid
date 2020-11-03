@@ -7,7 +7,7 @@
     <ul
       class="flex flex-col items-center justify-between lg:flex-row lg:items-start md:mt-5"
     >
-      <li v-for="event in lastEvents" :key="event.slug">
+      <li v-for="event in lastEvents" :key="event.slug" class="lg:w-1/3">
         <EventSmallCard
           :event="event"
           class="mt-8 lg:mx-4"

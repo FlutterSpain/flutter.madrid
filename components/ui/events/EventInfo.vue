@@ -1,14 +1,19 @@
 <template>
   <article
     v-if="event"
-    class="p-6 flex flex-col lg:flex-row-reverse lg:items-start lg:justify-between md:pl-10 lg:my-8"
+    class="event-container p-6 flex flex-col lg:flex-row-reverse lg:items-start lg:justify-between md:pl-10 lg:my-8"
   >
     <div class="event-content">
       <img :src="event.image" class="event-image rounded-lg mb-3" />
     </div>
 
     <div class="event-content">
-      <h1 class="title text-center lg:text-left dark:text-gray-main-200">
+      <span
+        class="block font-medium text-xl md:text-3xl text-blue-main-500 dark:text-blue-main-400"
+        >{{ $moment(event.date).format('dddd, DD MMM YYYY HH:mm') }}</span
+      >
+
+      <h1 class="title dark:text-gray-main-200">
         {{ event.title }}
       </h1>
 
@@ -62,6 +67,9 @@ export default {
 </script>
 
 <style scoped>
+.event-container {
+  min-height: 80vh;
+}
 .outline-link {
   @apply mt-2;
   max-width: 12.5rem;

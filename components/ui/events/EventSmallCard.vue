@@ -3,7 +3,7 @@
     <div class="card-header">
       <div>
         <span
-          class="text-gray-main-500 text-xs md:text-lg dark:text-gray-main-400"
+          class="text-blue-main-500 dark:text-blue-main-400 md:text-lg lg:text-xl dark:text-gray-main-400"
         >
           {{ $moment(event.date).format('ddd, DD MMM YYYY HH:mm') }}
         </span>
@@ -11,7 +11,7 @@
       <img :src="event.image" :alt="event.altImage" class="card-image" />
     </div>
     <h2
-      class="text-gray-main-700 font-medium md:text-2xl dark:text-gray-main-300"
+      class="text-gray-main-700 font-medium text-xl lg:text-2xl dark:text-gray-main-300"
     >
       {{ event.title }}
     </h2>
@@ -55,5 +55,11 @@ export default {
 .card:hover .card-image {
   @apply cursor-pointer border-blue-main-500;
   box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 1024px) {
+  .card {
+    height: 20rem;
+  }
 }
 </style>

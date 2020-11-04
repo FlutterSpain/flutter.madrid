@@ -7,7 +7,7 @@
 </template>
 
 <script>
-const SOCIAL_TYPES = ['meetup', 'slack', 'twitter', 'gmail']
+const SOCIAL_TYPES = ['meetup', 'slack', 'twitter', 'google', 'linkedin', 'web']
 
 export default {
   name: 'SocialLink',
@@ -46,6 +46,10 @@ export default {
 
 .slack {
   color: #611f69;
+}
+
+.linkedin {
+  color: #0077b5;
 }
 
 html.dark .slack {

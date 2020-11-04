@@ -5,13 +5,13 @@
         v-if="$colorMode.preference === 'light'"
         src="@/assets/images/logo_flutter_madrid.png"
         alt="Logo Flutter Madrid"
-        class="transition w-24 p-2 md:p-0"
+        class="transition w-24 p-2 md:ml-4"
       />
       <img
         v-else
         src="@/assets/images/logo_flutter_madrid_blanco.png"
         alt="Logo Flutter Madrid blanco"
-        class="transition w-24 p-2 md:p-0"
+        class="transition w-24 p-2 md:ml-4"
       />
     </nuxt-link>
   </div>

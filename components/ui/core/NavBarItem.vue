@@ -4,7 +4,7 @@
     :to="to"
   >
     <fa class="text-xl" :icon="icon" :class="{ hidden: isOnlyText }" />
-    <p class="text-xs md:text-sm mt-1">{{ title }}</p>
+    <p class="text-xs md:text-sm md:font-bold mt-1">{{ title }}</p>
   </nuxt-link>
 </template>
 

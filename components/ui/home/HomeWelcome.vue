@@ -53,7 +53,7 @@ export default {
 
 @media (min-width: 768px) {
   .welcome {
-    height: 90vh;
+    height: 80vh;
   }
 
   .welcome-text {

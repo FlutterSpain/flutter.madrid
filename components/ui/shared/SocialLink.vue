@@ -1,13 +1,24 @@
 <template>
   <li :class="type">
-    <a :href="link" target="_blank" class="flex flex-col items-center">
-      <fa :icon="['fab', type]" class="text-4xl" />{{ text }}</a
+    <a
+      :href="link"
+      target="_blank"
+      class="flex flex-col items-center font-medium"
+    >
+      <fa :icon="['fab', type]" class="text-4xl mb-1" />{{ text }}</a
     >
   </li>
 </template>
 
 <script>
-const SOCIAL_TYPES = ['meetup', 'slack', 'twitter', 'google', 'linkedin', 'web']
+const SOCIAL_TYPES = [
+  'meetup',
+  'slack',
+  'twitter',
+  'google',
+  'linkedin',
+  'chrome',
+]
 
 export default {
   name: 'SocialLink',
@@ -52,7 +63,21 @@ export default {
   color: #0077b5;
 }
 
-html.dark .slack {
-  color: #2eb67d;
+.chrome {
+  color: #dd5144;
+}
+
+.github {
+  color: #2c313a;
+}
+
+html.dark .meetup,
+html.dark .twitter,
+html.dark .google,
+html.dark .slack,
+html.dark .linkedin,
+html.dark .chrome,
+html.dark .github {
+  color: #f4f4f4;
 }
 </style>

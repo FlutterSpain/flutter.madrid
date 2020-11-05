@@ -12,13 +12,15 @@
       <h1 class="title dark:text-gray-main-200">Equipo</h1>
 
       <p class="paragraph mt-5 text-left dark:text-gray-main-400">
-        ¿Tienes una idea, duda o pregunta para nosotros?<br />¿Quieres decirnos
-        algo y no sabes cómo?<br />¿Te gustaría ayudar o participar en un
-        evento?
+        En 2020, un comando compuesto por tres de los mejores soldados del
+        ejército Flutter, fueron encarcelados por un Widget que no habían
+        testeado. No tardaron en fugarse de la prisión en la que se encontraban
+        recluidos. Hoy buscados todavía por el gobierno flutterista sobreviven
+        como soldados del código. Si usted tiene algún problema y se los
+        encuentra quizá pueda contratarlos…
       </p>
-      <p class="paragraph mt-3 text-left dark:text-gray-main-400">
-        Aquí te dejamos algunas de las vías por donde nos encontrarás dispuestos
-        a charlar.
+      <p class="paragraph mt-5 text-left dark:text-gray-main-400">
+        Ellos son... !El equipo Flutter Madrid!
       </p>
     </div>
   </article>
@@ -42,7 +44,7 @@ export default {
 
 @media (min-width: 768px) {
   .contact {
-    height: 70vh;
+    height: 60vh;
   }
 
   .contact-text {

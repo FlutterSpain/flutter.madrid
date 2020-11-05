@@ -1,9 +1,15 @@
 <template>
-  <div class="flex flex-col md:flex-row justify-between items-center">
-    <div>
-      <h2>{{ teamMember.name }}</h2>
-      <p>{{ teamMember.description }}</p>
-      <ul class="mt-10 flex flex-col lg:flex-row justify-around">
+  <div class="flex flex-col-reverse justify-between items-center">
+    <div class="text-center w-3/4 lg:w-full">
+      <h2 class="title text-gray-main-500 dark:text-gray-main-300">
+        {{ teamMember.name }}
+      </h2>
+      <p
+        class="text-2xl font-medium text-gray-main-500 lg:text-xl dark:text-gray-main-400"
+      >
+        {{ teamMember.description }}
+      </p>
+      <ul class="mt-5 mb-10 flex flex-row justify-between">
         <SocialLink
           v-for="(socialItem, index) in teamMember.socialItems"
           :key="index"
@@ -14,7 +20,11 @@
       </ul>
     </div>
     <div>
-      <img :src="teamMember.image" :alt="`Foto de ${name}`" />
+      <img
+        :src="teamMember.image"
+        :alt="`Foto de ${name}`"
+        class="team-image"
+      />
     </div>
   </div>
 </template>
@@ -30,3 +40,16 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.team-image {
+  @apply rounded-full;
+  max-height: 12.5rem;
+}
+
+@media (min-width: 1024px) {
+  .title {
+    @apply text-4xl;
+  }
+}
+</style>

@@ -1,14 +1,13 @@
 <template>
   <article
-    class="p-6 flex flex-col md:flex-row-reverse md:items-center md:justify-between md:pl-10 lg:my-8"
+    class="p-6 flex flex-col lg:flex-row md:items-center lg:justify-around lg:px-10"
   >
-    <ul>
-      <TeamMemberCard
-        v-for="(teamMember, index) in teamMembers"
-        :key="index"
-        :team-member="teamMember"
-      />
-    </ul>
+    <TeamMemberCard
+      v-for="(teamMember, index) in teamMembers"
+      :key="index"
+      :team-member="teamMember"
+      class="mb-5"
+    />
   </article>
 </template>
 
@@ -22,7 +21,7 @@ export default {
           name: 'Alberto Chamorro',
           description: 'Frontend y Flutter developer',
           image:
-            'https://pbs.twimg.com/profile_images/1011542716696711168/r_2y_NI2_400x400.jpg',
+            'https://pbs.twimg.com/profile_images/1324235880106807298/r_B2dZhA_400x400.jpg',
           socialItems: [
             {
               type: 'google',
@@ -45,7 +44,7 @@ export default {
               text: 'Github',
             },
             {
-              type: 'web',
+              type: 'chrome',
               link: 'https://albertochamorro.dev/#/',
               text: 'Web',
             },
@@ -78,7 +77,7 @@ export default {
               text: 'Github',
             },
             {
-              type: 'web',
+              type: 'chrome',
               link: 'https://jaimeblasco.com/',
               text: 'Web',
             },

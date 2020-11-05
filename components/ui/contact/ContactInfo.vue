@@ -64,7 +64,7 @@ export default {
 
 @media (min-width: 768px) {
   .contact {
-    height: 90vh;
+    height: 80vh;
   }
 
   .contact-text {

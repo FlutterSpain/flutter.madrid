@@ -6,7 +6,7 @@
       v-for="(teamMember, index) in teamMembers"
       :key="index"
       :team-member="teamMember"
-      class="mb-5"
+      class="mb-5 lg:w-1/4"
     />
   </article>
 </template>

@@ -68,7 +68,7 @@ export default {
 
 <style scoped>
 .event-container {
-  min-height: 80vh;
+  min-height: 70vh;
 }
 .outline-link {
   @apply mt-2;

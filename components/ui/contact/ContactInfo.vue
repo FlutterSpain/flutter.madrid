@@ -24,22 +24,26 @@
         <SocialLink
           link="https://www.meetup.com/es-ES/Flutter-Madrid/"
           type="meetup"
-          text="/Flutter-Madrid"
+          text="Meetup"
+          class="mb-4"
         />
         <SocialLink
           link="https://twitter.com/fluttermadrid"
           type="twitter"
-          text="@FlutterMadrid"
+          text="Twitter"
+          class="mb-4"
         />
         <SocialLink
           link="mailto:fluttermadrid@gmail.com"
           type="google"
-          text="FlutterMadrid"
+          text="Email"
+          class="mb-4"
         />
         <SocialLink
           link="http://flutter-es.slack.com/"
           type="slack"
-          text="FlutterEspaña"
+          text="Slack"
+          class="mb-4"
         />
       </ul>
     </div>

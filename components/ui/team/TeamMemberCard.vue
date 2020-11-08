@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col-reverse justify-between items-center">
-    <div class="text-center w-3/4 lg:w-full">
+    <div class="text-center w-full">
       <h2 class="title text-gray-main-500 dark:text-gray-main-300">
         {{ teamMember.name }}
       </h2>

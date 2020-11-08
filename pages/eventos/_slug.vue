@@ -1,6 +1,6 @@
 <template>
   <div class="w-full md:h-full">
-    <EventInfo :event="event" />
+    <EventContent :event="event" />
     <BaseFooter />
   </div>
 </template>

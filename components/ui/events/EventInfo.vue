@@ -1,41 +1,27 @@
 <template>
   <article
-    v-if="event"
-    class="event-container p-6 flex flex-col lg:flex-row-reverse lg:items-start lg:justify-between md:pl-10 lg:my-8"
+    class="welcome p-6 flex flex-col md:flex-row-reverse md:items-center md:justify-between md:pl-10 lg:my-8"
   >
-    <div class="event-content">
-      <img :src="event.image" class="event-image rounded-lg mb-3" />
-    </div>
+    <EventsLight
+      v-if="$colorMode.preference !== 'dark'"
+      class="events-image mb-3"
+    />
+    <EventsDark v-else class="events-image mb-3" />
 
-    <div class="event-content">
-      <span
-        class="block font-medium text-xl md:text-3xl text-blue-main-500 dark:text-blue-main-400"
-        >{{ $moment(event.date).format('dddd, DD MMM YYYY HH:mm') }}</span
-      >
+    <div class="welcome-text text-center md:text-left">
+      <h1 class="title dark:text-gray-main-200">Eventos</h1>
 
-      <h1 class="title dark:text-gray-main-200">
-        {{ event.title }}
-      </h1>
-
-      <nuxt-content :document="event" />
-
-      <div
-        class="mt-8 flex flex-col items-center lg:flex-row lg:justify-start lg:items-end"
-      >
-        <Button :text="eventButtonText" class="block mr-2" @click="goToEvent" />
-        <OutlineLink
-          v-if="event.videoLink"
-          text="Ver vídeo"
-          class="outline-link mr-2"
-          :icon="['fab', 'youtube']"
-        />
-        <OutlineLink
-          v-if="event.github"
-          text="Ver código"
-          class="outline-link mr-2"
-          :icon="['fab', 'github']"
-        />
-      </div>
+      <p class="paragraph mt-5 text-left dark:text-gray-main-400">
+        Nuestro principal objetivo como comunidad de desarrolladores se basa en
+        la organización de eventos de cualquier tipo para dar a conocer y
+        aprender más sobre el framework y todas sus ventajas.
+      </p>
+      <p class="paragraph mt-3 text-left dark:text-gray-main-400">
+        Nos encanta reunirnos, charlar, compartir experiencias, organizar retos
+        con la comunidad. Si quieres participar en alguno de nuestros eventos o
+        tienes una idea para un evento y quieres que te ayudemos a llevarla a
+        cabo no lo dudes, contacta con nosotros.
+      </p>
     </div>
   </article>
 </template>
@@ -43,44 +29,38 @@
 <script>
 export default {
   name: 'EventInfo',
-  props: {
-    event: {
-      type: Object,
-      default: undefined,
-    },
-  },
-  computed: {
-    isPastEvent() {
-      const now = this.$moment()
-      return this.$moment(this.event.date).isAfter(now)
-    },
-    eventButtonText() {
-      return this.isPastEvent ? 'Asistiré' : 'Ver evento'
-    },
+  components: {
+    EventsLight: () => import('@/assets/images/events_light.svg?inline'),
+    EventsDark: () => import('@/assets/images/events_dark.svg?inline'),
   },
   methods: {
-    goToEvent() {
-      window.location.href = this.event.eventLink
+    goToMeetup() {
+      window.location.href = 'https://www.meetup.com/es-ES/Flutter-Madrid/'
     },
   },
 }
 </script>
 
 <style scoped>
-.event-container {
-  min-height: 70vh;
+.events-image {
+  max-height: 12.5rem;
+  width: 100%;
 }
-.outline-link {
-  @apply mt-2;
-  max-width: 12.5rem;
-}
-@media (min-width: 1024px) {
-  .event-content {
-    max-width: 50%;
+
+@media (min-width: 768px) {
+  .welcome {
+    height: 60vh;
   }
-  .event-image {
-    max-width: 75rem;
-    width: 100%;
+
+  .welcome-text {
+    max-width: 600px;
+  }
+
+  .events-image {
+    height: 25rem;
+    max-height: 100%;
+    min-width: 26rem;
+    max-width: 60rem;
   }
 }
 </style>

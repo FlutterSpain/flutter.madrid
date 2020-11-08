@@ -1,5 +1,5 @@
 <template>
-  <div class="card dark:bg-gray-main-500" @click="$emit('click')">
+  <div class="card" @click="$emit('click')">
     <div class="card-header">
       <div>
         <span
@@ -35,7 +35,7 @@ export default {
 
 <style scoped>
 .card {
-  @apply p-4 rounded-lg border border-gray-main-400;
+  @apply p-4 rounded-lg border bg-white border-gray-main-400;
   max-width: 37rem;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -55,6 +55,10 @@ export default {
 .card:hover .card-image {
   @apply cursor-pointer border-blue-main-500;
   box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+html.dark .card {
+  @apply bg-gray-main-500;
 }
 
 @media (min-width: 1024px) {

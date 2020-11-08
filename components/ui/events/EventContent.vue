@@ -27,12 +27,14 @@
           v-if="event.videoLink"
           text="Ver vídeo"
           class="outline-link mr-2"
+          :link="event.videoLink"
           :icon="['fab', 'youtube']"
         />
         <OutlineLink
-          v-if="event.github"
+          v-if="event.sourceLink"
           text="Ver código"
           class="outline-link mr-2"
+          :link="event.sourceLink"
           :icon="['fab', 'github']"
         />
       </div>

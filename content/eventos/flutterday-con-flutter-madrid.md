@@ -2,7 +2,7 @@
 title: 'Pasa el #FlutterDay con nosotros'
 description: |
   El equipo de Flutter en Google ha organizado un día muy especial con toda la comunidad, el FlutterDay. Nos unimos a GDG Marbella para compartir con vosotros este día.
-date: 2020-06-25T19:00:00.000Z
+date: 2020-06-25T17:00:00.000Z
 image: https://secure.meetupstatic.com/photos/event/4/3/d/7/highres_490997367.jpeg
 altImage: 'Imagen del evento FlutterDay'
 eventLink: https://www.meetup.com/es-ES/Flutter-Madrid/events/274122657/

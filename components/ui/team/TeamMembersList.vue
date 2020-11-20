@@ -54,7 +54,7 @@ export default {
           name: 'Jaime Blasco',
           description: 'Mobile developer',
           image:
-            'https://pbs.twimg.com/profile_images/1217491855925030918/bhRY3Kkg_400x400.jpg',
+            'https://pbs.twimg.com/profile_images/1327529983330439169/KafS9Jcq_400x400.jpg',
           socialItems: [
             {
               type: 'google',

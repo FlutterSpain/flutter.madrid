@@ -21,7 +21,7 @@ export default {
           name: 'Alberto Chamorro',
           description: 'Frontend y Flutter developer',
           image:
-            'https://pbs.twimg.com/profile_images/1324235880106807298/r_B2dZhA_400x400.jpg',
+            'https://res.cloudinary.com/dqz435aom/image/upload/v1607355256/team-members/alberto-chamorro_zwbp7v.jpg',
           socialItems: [
             {
               type: 'google',
@@ -51,10 +51,38 @@ export default {
           ],
         },
         {
+          name: 'Ana Polo',
+          description: 'Mobile developer',
+          image:
+            'https://res.cloudinary.com/dqz435aom/image/upload/c_scale,w_400/v1607529928/team-members/0_dmsy9g.jpg',
+          socialItems: [
+            {
+              type: 'google',
+              link: 'mailto:ana.polo.sanchez1991@gmail.com',
+              text: 'Email',
+            },
+            {
+              type: 'twitter',
+              link: 'https://twitter.com/AnaPolo_dev',
+              text: 'Twitter',
+            },
+            {
+              type: 'linkedin',
+              link: 'https://www.linkedin.com/in/ana-polo-sánchez/',
+              text: 'Linkedin',
+            },
+            {
+              type: 'github',
+              link: 'https://github.com/AnnaPS',
+              text: 'Github',
+            },
+          ],
+        },
+        {
           name: 'Jaime Blasco',
           description: 'Mobile developer',
           image:
-            'https://pbs.twimg.com/profile_images/1327529983330439169/KafS9Jcq_400x400.jpg',
+            'https://res.cloudinary.com/dqz435aom/image/upload/v1607355255/team-members/jaime-blasco_gigwmu.jpg',
           socialItems: [
             {
               type: 'google',
@@ -87,7 +115,7 @@ export default {
           name: 'Óscar Martín',
           description: 'Freelance developer',
           image:
-            'https://pbs.twimg.com/profile_images/1224125449875394563/-E-GhORs_400x400.jpg',
+            'https://res.cloudinary.com/dqz435aom/image/upload/v1607355256/team-members/oscar-martin_m7oo3s.jpg',
           socialItems: [
             {
               type: 'google',

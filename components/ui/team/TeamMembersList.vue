@@ -1,12 +1,12 @@
 <template>
   <article
-    class="p-6 flex flex-col lg:flex-row md:items-center lg:justify-around lg:px-10"
+    class="p-6 flex flex-col items-center wrapper lg:px-10 lg:grid lg:justify-center lg:grid-cols-2 lg:gap-4"
   >
     <TeamMemberCard
       v-for="(teamMember, index) in teamMembers"
       :key="index"
       :team-member="teamMember"
-      class="mb-5 lg:w-1/4"
+      class="mb-5"
     />
   </article>
 </template>

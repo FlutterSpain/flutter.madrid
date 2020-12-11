@@ -54,7 +54,6 @@ export default {
   computed: {
     isPastEvent() {
       const now = this.$moment()
-      console.log(now)
       return this.$moment(this.event.date).isAfter(now)
     },
     eventButtonText() {

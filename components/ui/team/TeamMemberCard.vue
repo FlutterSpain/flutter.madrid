@@ -9,13 +9,14 @@
       >
         {{ teamMember.description }}
       </p>
-      <ul class="mt-5 mb-10 flex flex-row justify-between lg:justify-around">
+      <ul class="mt-5 mb-10 flex flex-row justify-between lg:justify-center">
         <SocialLink
           v-for="(socialItem, index) in teamMember.socialItems"
           :key="index"
           :link="socialItem.link"
           :type="socialItem.type"
           :text="socialItem.text"
+          class="mx-3"
         />
       </ul>
     </div>

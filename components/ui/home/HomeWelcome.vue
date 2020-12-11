@@ -1,6 +1,6 @@
 <template>
   <article
-    class="welcome p-6 flex flex-col md:flex-row-reverse md:items-center md:justify-between md:pl-10 lg:my-8"
+    class="welcome p-6 flex flex-col md:flex-row-reverse md:items-center md:justify-between md:pl-10 lg:my-8 wrapper"
   >
     <WorkingLight
       v-if="$colorMode.preference !== 'dark'"

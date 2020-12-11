@@ -12,12 +12,12 @@
       <h1 class="title dark:text-gray-main-200">Equipo</h1>
 
       <p class="paragraph mt-5 text-left dark:text-gray-main-400">
-        En 2020, un comando compuesto por tres de los mejores soldados del
-        ejército Flutter, fueron encarcelados por un Widget que no habían
-        testeado. No tardaron en fugarse de la prisión en la que se encontraban
-        recluidos. Hoy, buscados todavía por el gobierno flutterista, sobreviven
-        como soldados del código. Si usted tiene algún problema y se los
-        encuentra quizá pueda contratarlos…
+        En 2020, un comando compuesto por 4 de los mejores soldados del ejército
+        Flutter, fueron encarcelados por un Widget que no habían testeado. No
+        tardaron en fugarse de la prisión en la que se encontraban recluidos.
+        Hoy, buscados todavía por el gobierno flutterista, sobreviven como
+        soldados del código. Si usted tiene algún problema y se los encuentra
+        quizá pueda contratarlos…
       </p>
       <p class="paragraph mt-5 text-left dark:text-gray-main-400">
         Ellos son... ¡El equipo Flutter Madrid!
@@ -56,12 +56,6 @@ export default {
     max-height: 100%;
     min-width: 26rem;
     max-width: 60rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .contact-text {
-    min-width: 50%;
   }
 }
 </style>

@@ -18,6 +18,7 @@ const SOCIAL_TYPES = [
   'google',
   'linkedin',
   'chrome',
+  'github',
 ]
 
 export default {

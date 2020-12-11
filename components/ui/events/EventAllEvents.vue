@@ -1,5 +1,5 @@
 <template>
-  <article class="px-6 py-10 md:px-10">
+  <article class="px-6 py-10 md:px-10 wrapper">
     <h2 class="subtitle text-center md:text-left dark:text-gray-main-200">
       Eventos anteriores
     </h2>

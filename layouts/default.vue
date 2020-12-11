@@ -117,4 +117,11 @@ html.dark .outline-button {
     min-width: 300px;
   }
 }
+
+@media (min-width: 768px) {
+  .wrapper {
+    max-width: 118.75rem;
+    margin: 0 auto;
+  }
+}
 </style>

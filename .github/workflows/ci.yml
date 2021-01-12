@@ -56,7 +56,7 @@ jobs:
           git status
           git remote add origin "https://jamesblasco:${{secrets.commit_secret}}@github.com/Flutter-Madrid/flutter.madrid.git"
           git checkout -b gh-pages
-          echo "flutter.madrid" > CNAME
+          echo "fluttermadrid.dev" > CNAME
           git add --all
           git commit -m "Roll master - Deploy website"
           git push origin gh-pages -f

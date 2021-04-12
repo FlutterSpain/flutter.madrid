@@ -18,39 +18,6 @@ export default {
     return {
       teamMembers: [
         {
-          name: 'Alberto Chamorro',
-          description: 'Frontend y Flutter developer',
-          image:
-            'https://res.cloudinary.com/dqz435aom/image/upload/v1607355256/team-members/alberto-chamorro_zwbp7v.jpg',
-          socialItems: [
-            {
-              type: 'google',
-              link: 'mailto:a.chamorro.ruiz@gmail.com',
-              text: 'Email',
-            },
-            {
-              type: 'twitter',
-              link: 'https://twitter.com/achamorro_dev',
-              text: 'Twitter',
-            },
-            {
-              type: 'linkedin',
-              link: 'https://www.linkedin.com/in/alberto-chamorro/',
-              text: 'Linkedin',
-            },
-            {
-              type: 'github',
-              link: 'https://github.com/achamorro-dev',
-              text: 'Github',
-            },
-            {
-              type: 'chrome',
-              link: 'https://albertochamorro.dev/#/',
-              text: 'Web',
-            },
-          ],
-        },
-        {
           name: 'Ana Polo',
           description: 'Mobile developer',
           image:

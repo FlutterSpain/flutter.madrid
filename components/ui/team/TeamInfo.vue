@@ -12,7 +12,7 @@
       <h1 class="title dark:text-gray-main-200">Equipo</h1>
 
       <p class="paragraph mt-5 text-left dark:text-gray-main-400">
-        En 2020, un comando compuesto por cuatro de los mejores soldados del
+        En 2020, un comando compuesto por tres de los mejores soldados del
         ejército Flutter, fueron encarcelados por un Widget que no habían
         testeado. No tardaron en fugarse de la prisión en la que se encontraban
         recluidos. Hoy, buscados todavía por el gobierno flutterista, sobreviven
